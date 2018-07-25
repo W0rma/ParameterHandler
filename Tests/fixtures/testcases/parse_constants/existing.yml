@@ -1,0 +1,7 @@
+# This file is auto-generated during the composer install
+parameters:
+    transitions:
+        !php/const 'Incenteev\ParameterHandler\Tests\ProcessorTest::FOOBAR':
+            from:
+                - !php/const 'Incenteev\ParameterHandler\Tests\ProcessorTest::FOO'
+            to: !php/const 'Incenteev\ParameterHandler\Tests\ProcessorTest::BAR'

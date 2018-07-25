@@ -14,6 +14,10 @@ class ProcessorTest extends TestCase
 {
     use ProphecyTrait;
 
+    public const FOO = 42;
+    public const BAR = 'bar';
+    public const FOOBAR = 'foobar';
+
     /**
      * @var ObjectProphecy<IOInterface>
      */

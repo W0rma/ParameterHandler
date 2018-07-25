@@ -1,0 +1,7 @@
+# This file is auto-generated during the composer install
+parameters:
+    transitions:
+        foobar:
+            from:
+                - 42
+            to: bar
